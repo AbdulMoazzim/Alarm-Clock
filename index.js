@@ -30,7 +30,8 @@ function playAlarm () {
   }, 1000)
 }
 function stopAlarm() {
-  clearInterval(set); 
+  clearInterval(set);
+  document.querySelector('.input').innerHTML = '';
   document.querySelector('.display').innerHTML = ''; 
 }
 document.querySelector('.button').onclick = playAlarm
