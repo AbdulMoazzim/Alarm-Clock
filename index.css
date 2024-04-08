@@ -1,0 +1,54 @@
+.Alarm {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 60vw;
+      background-color: aqua;
+      padding-bottom: 50px;
+}
+
+.Alarm h1 {
+      text-align: center;
+      font-size: 50px;
+}
+
+.time{
+      display: flex;
+      justify-content: space-around;
+}
+
+.timing {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.input {
+      width: 130px;
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 30px;
+}
+
+.timing h3 {
+      font-size: 40px;
+}
+
+.saveBtn{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+}
+
+.button {
+      padding: 10px 30px;
+      background-color: white;
+      border-radius: 10px;
+      display: inline-block;
+}
+
+.display {
+      display: flex;
+      justify-content: space-around;
+}
