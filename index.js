@@ -31,7 +31,9 @@ function playAlarm () {
 }
 function stopAlarm() {
   clearInterval(set);
-  document.querySelector('.input').innerHTML = '';
+  document.querySelector('#hours').value = '';
+  document.querySelector('#minutes').value = '';
+  document.querySelector('#seconds').value = '';
   document.querySelector('.display').innerHTML = ''; 
 }
 document.querySelector('.button').onclick = playAlarm
