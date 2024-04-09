@@ -42,6 +42,7 @@
 }
 
 .button {
+      font-size: 30px;
       padding: 10px 30px;
       background-color: white;
       border-radius: 10px;
@@ -49,6 +50,12 @@
 }
 
 .display {
+      height: 60px;
       display: flex;
       justify-content: space-around;
+      align-items: center;
+}
+
+.display p {
+      font-size: 30px;
 }
