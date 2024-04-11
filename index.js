@@ -1,7 +1,7 @@
 let set;
 
 async function play() {
-  var audio = new Audio('1.mp3');
+  var audio = new Audio('audio.mp3');
   audio.play();
 }
 
